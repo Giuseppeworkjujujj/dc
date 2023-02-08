@@ -1,7 +1,7 @@
 <template>
   <div>
-    <!-- <img :src="immagine.thumb" :alt="immagine.series"> -->
-  <p>{{ immagine }}</p>
+    <img :src="immagine.thumb" :alt="immagine.series">
+  <!-- <p>{{ immagine }}</p> -->
 </div>
 </template>
 

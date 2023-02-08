@@ -1,12 +1,12 @@
 <template>
   <div>
-  <pippo v-for="(immagine, index) in immagini" :key="index"/>
+  <pippo v-for="(immagine, index) in immagini" :key="index" :immagine="immagine"/>
   </div>
 </template>
 
 <script>
-import Fumetti from '@/data/Fumetti.js';
-import pippo from '@/components/pippo.vue';
+import Fumetti from '@/data/Fumetti.js'
+import pippo from '@/components/pippo.vue'
 export default {
   name: 'HelloWorld',
   components: {
