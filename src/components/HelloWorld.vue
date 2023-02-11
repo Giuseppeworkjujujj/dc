@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <!-- <div class="container-fluid"> -->
     <div class="row">
       <div class="col-6">
         <rigaimg v-for="(immagine, index) in immagini" :key="index" :immagine="immagine"/>
@@ -8,7 +8,7 @@
         <rigaimg1 v-for="(immagine2, index) in immagini2" :key="index" :immagine2="immagine2"/>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 </template>
 
 <script>
